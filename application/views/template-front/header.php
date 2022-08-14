@@ -56,9 +56,6 @@
         <?php if(isset($_SESSION['user_type'])){ ?>
             <?php if($_SESSION['user_type']=='petugas'){ ?>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo base_url().'kategori'; ?>">Kategori</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="<?php echo base_url().'produkc'; ?>">Produk</a>
             </li>
             <li class="nav-item">
