@@ -1,0 +1,70 @@
+.icon-nav{
+    height:25px;
+}
+
+a, .white{
+    color:white !important;
+    text-decoration:none !important;
+}
+
+a:hover{
+    text-decoration:none !important;
+}
+
+.icon-logo{
+    height:30px;
+}
+
+.center{
+    text-align: center !important;
+}
+
+.right{
+    text-align: right !important;
+}
+
+.img-product{
+    height:200px;
+}
+
+span.nama{
+    color:white !important;
+}
+
+.none{
+    display: none !important;
+}
+
+.pointer{
+    cursor: pointer !important;
+}
+
+.select2-selection__rendered{
+    padding:5px 10px;
+}
+
+.select2-search--dropdown .select2-search__field {
+    padding: 10px !important;
+}
+
+.select2-container .select2-selection--single {
+    height:unset !important;
+}
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
