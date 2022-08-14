@@ -13,6 +13,7 @@
                         <img class="img-product" src="<?php echo base_url().'produk/'.$row->gambar; ?>" />
                         <h4 class="mb-3"><?php echo $row->nama_produk; ?></h4>
                         <h4 class="mb-5">Rp. <?php echo number_format($row->harga_jual,0,",","."); ?></h4>
+                    <h5 class="mb-4"><?php if($row->stok==0) echo 'Stok tidak tersedia'; echo $row->stok.' stok tersedia'; ?></h5>
                         <div class="px-4">
                             <?php echo $row->deskripsi ?>
                         </div>

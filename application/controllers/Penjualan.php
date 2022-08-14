@@ -15,7 +15,7 @@ class Penjualan extends CI_Controller {
 	public function index()
 	{
 		if(isset($_SESSION['user_type'])){
-			if( (($_SESSION['user_type'])<>'administrator') ){
+			if( (($_SESSION['user_type'])<>'pelanggan') ){
 				redirect(base_url() . 'auth', 'refresh');
 			}
 		}else{
@@ -60,7 +60,7 @@ class Penjualan extends CI_Controller {
 	public function add()
 	{
 		if(isset($_SESSION['user_type'])){
-			if( (($_SESSION['user_type'])<>'administrator') ){
+			if( (($_SESSION['user_type'])<>'pelanggan') ){
 				redirect(base_url() . 'auth', 'refresh');
 			}
 		}else{
